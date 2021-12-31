@@ -33,5 +33,4 @@ public class NewReleasePage extends Utils {
         String expectedSuccessCommentMessage = loadProp.getProperty("ExpectedSuccessCommentMessage");
         assertEquals(actualSuccessCommentMessage,expectedSuccessCommentMessage);
     }
-
 }

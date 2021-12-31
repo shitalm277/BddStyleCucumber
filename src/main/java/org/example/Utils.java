@@ -43,8 +43,7 @@ public class Utils extends BrowserManager {
         driver.findElement(by).sendKeys(text);
     }
 
-    public static String getTextFromElement(By by)
-    {
+    public static String getTextFromElement(By by) {
         return driver.findElement(by).getText();
     }
 
@@ -75,5 +74,9 @@ public class Utils extends BrowserManager {
         Select selectYear = new Select(driver.findElement(by));
         selectYear.selectByIndex(Integer.parseInt(year));
     }
+
+   /* public static String getMyUrl(){
+        return  driver.getCurrentUrl();
+    }*/
 
 }
